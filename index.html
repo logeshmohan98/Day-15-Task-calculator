@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Calculator</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+	<div class="container mt-4">
+		<div class="row">
+			<div class="col-md-4 mx-auto">
+				<div class="card calculator">
+					<div class="card-body">
+						<h1 class="card-title text-center">Calculator</h1>
+						<div id="output" class="card-text text-right">0</div>
+						<div id="buttons" class="d-flex flex-wrap justify-content-center">
+							
+							<button class="btn btn-primary button number" id="seven">7</button>
+							<button class="btn btn-primary button number" id="eight">8</button>
+							<button class="btn btn-primary button number" id="nine">9</button>
+                            <button class="btn btn-secondary button clear" id="clear">C</button>
+							<button class="btn btn-danger button operator" id="modulus">%</button>
+							<button class="btn btn-danger button operator" id="divide">/</button>
+							
+							<button class="btn btn-primary button number" id="four">4</button>
+							<button class="btn btn-primary button number" id="five">5</button>
+							<button class="btn btn-primary button number" id="six">6</button>
+                            <button class="btn btn-danger button operator" id="multiply">*</button>
+							<button class="btn btn-danger button operator" id="subtract">-</button>
+                            <button class="btn btn-danger button operator" id="add">+</button>
+							<button class="btn btn-primary button number" id="one">1</button>
+							<button class="btn btn-primary button number" id="two">2</button>
+							<button class="btn btn-primary button number" id="three">3</button>
+							
+							<button class="btn btn-primary button number" id="zero">0</button>
+							<button class="btn btn-primary button number" id="decimal">.</button>
+							<button class="btn btn-success button equals" id="equals">=</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
